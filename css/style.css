@@ -1,0 +1,70 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+
+/*common start*/
+body{
+font-family: 'Dosis', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #333333;
+}
+/*common end*/
+
+/*header start*/
+header{
+	background-color: #ffd338;
+}
+.menu ul li a{
+font-size: 18px;
+font-weight: 700;
+color: white !important;
+padding: 3px 20px !important;
+border-radius: 15px;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+}
+
+.d_user{
+
+}
+.d_user_a, .d_search_a{
+	color: white;
+}
+.d_user_a:hover, .d_search-a:hover{
+	color: #f05c5c;
+}
+.d_user_a:focus, .d_search_a:focus{
+	box-shadow: 0 0 0 0.25rem rgb(241 92 92);	
+}
+.d_user_ul, .d_search_ul{
+	background-color: #ffd338;	
+}
+
+.d_search{
+
+}
+/*header end*/
+
+
+/*
+.header, .hero, .body, .bar, .footer{
+	background-color: teal;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+.box{
+	margin-bottom: 4px;
+	min-height: 70px;
+	background-color: purple;
+	border: 10px solid black;
+	font-size: 50px;
+	color: white;
+}
+.white{
+	background-color: lime;
+}
+*/
